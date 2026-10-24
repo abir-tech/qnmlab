@@ -7,6 +7,7 @@ abstract: >-
   frequency plane with readout verification, simulated noise and mitigation, and an analysis
   path for real quantum hardware, including the raw counts of a 2026 IQM Emerald run.
 version: 0.1.1
+doi: 10.5281/zenodo.23617369
 license: MIT
 repository-code: "https://github.com/abir-tech/qnmlab"
 url: "https://www.aiqcommunity.org/"

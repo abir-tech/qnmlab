@@ -8,6 +8,7 @@
 [![Python](https://img.shields.io/pypi/pyversions/qnmlab.svg)](https://pypi.org/project/qnmlab/)
 [![Tests](https://github.com/abir-tech/qnmlab/actions/workflows/tests.yml/badge.svg)](https://github.com/abir-tech/qnmlab/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23617369.svg)](https://doi.org/10.5281/zenodo.23617369)
 
 Developed by **[AiQC — Ai and Quantum Community](https://www.aiqcommunity.org/)**
 
@@ -216,6 +217,10 @@ If you use `qnmlab`, please cite (see [`CITATION.cff`](CITATION.cff)):
 
 > A. Chekroun, H. Al-Yoorby, M. A. Assal, Z. Lourghi, A. Boussahi,
 > *Phase Readout and Seedless Search for Black-Hole Quasinormal Modes on Quantum Processors*, 2026.
+
+To cite the software itself, use its Zenodo DOI:
+[10.5281/zenodo.23617369](https://doi.org/10.5281/zenodo.23617369) (all versions) or
+[10.5281/zenodo.23617370](https://doi.org/10.5281/zenodo.23617370) (exactly version 0.1.1).
 
 ## Development
 
