@@ -15,7 +15,7 @@ from .readout import NoiseModel, measure_mode, phase_readout, prepare_state
 from .reference import reference_modes
 from .search import find_modes
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __all__ = ["BlackHole", "Schwarzschild", "KazakovSolodukhin", "ReissnerNordstrom", "Hayward",
            "available_models", "reference_modes", "readout_operator", "search_pencil", "NoiseModel",

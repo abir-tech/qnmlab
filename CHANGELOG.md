@@ -1,6 +1,12 @@
 # Changelog
 
-## 0.1.0 — unreleased
+## 0.1.1
+
+- README: about AiQC (Ai and Quantum Community), the authors, and an illustrated explanation
+  of the pipeline, the readout cost, the search, the hardware run and the scaling.
+  No code changes.
+
+## 0.1.0
 
 First release.
 
