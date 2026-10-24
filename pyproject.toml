@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qnmlab"
+version = "0.1.0"
+description = "Black-hole quasinormal modes with quantum algorithms: phase readout, seedless search, hardware analysis"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Abir Chekroun", email = "a.chekroun@esi-sba.dz" },
+  { name = "Hamed Al-Yoorby" },
+  { name = "Mouadh Abderrahmane Assal" },
+  { name = "Zakaria Lourghi" },
+  { name = "Achraf Boussahi" },
+]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "sympy>=1.12"]
+keywords = ["quasinormal modes", "black holes", "quantum computing", "variational quantum eigensolver",
+            "non-Hermitian", "gravitational waves"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Physics",
+  "Development Status :: 3 - Alpha",
+]
+
+[project.optional-dependencies]
+hardware = ["qiskit>=1.0"]
+plot = ["matplotlib>=3.7"]
+dev = ["pytest>=7", "matplotlib>=3.7"]
+
+[project.scripts]
+qnmlab = "qnmlab.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/abir-tech/qnmlab"
+Issues = "https://github.com/abir-tech/qnmlab/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"qnmlab.data" = ["*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["slow: takes more than a minute (deselect with -m 'not slow')"]

@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use qnmlab, please cite the accompanying paper."
+title: "qnmlab: black-hole quasinormal modes with quantum algorithms"
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/abir-tech/qnmlab"
+authors:
+  - family-names: Chekroun
+    given-names: Abir
+    email: a.chekroun@esi-sba.dz
+  - family-names: Al-Yoorby
+    given-names: Hamed
+  - family-names: Assal
+    given-names: Mouadh Abderrahmane
+  - family-names: Lourghi
+    given-names: Zakaria
+  - family-names: Boussahi
+    given-names: Achraf
+preferred-citation:
+  type: article
+  title: "Phase Readout and Seedless Search for Black-Hole Quasinormal Modes on Quantum Processors"
+  authors:
+    - family-names: Chekroun
+      given-names: Abir
+    - family-names: Al-Yoorby
+      given-names: Hamed
+    - family-names: Assal
+      given-names: Mouadh Abderrahmane
+    - family-names: Lourghi
+      given-names: Zakaria
+    - family-names: Boussahi
+      given-names: Achraf
+  year: 2026
