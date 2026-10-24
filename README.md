@@ -56,7 +56,7 @@ contact@aiqcommunity.org
 | | role |
 |---|---|
 | **Abir Chekroun** | AiQC Co-Director, Head of Quantum Projects — lead author |
-| **Hamed Al-Yoorby** | Research partner |
+| **Hamed Al-Yoorby** | AiQC member and research partner |
 | **Mouadh Abderrahmane Assal** | AiQC Co-Director, Head of Advanced AI Research |
 | **Zakaria Lourghi** | AiQC Co-Director, Principal AI Engineer |
 | **Achraf Boussahi** | AiQC Co-Director, Chief Scientific Officer |

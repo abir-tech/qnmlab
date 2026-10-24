@@ -1,33 +1,55 @@
 cff-version: 1.2.0
 message: "If you use qnmlab, please cite the accompanying paper."
 title: "qnmlab: black-hole quasinormal modes with quantum algorithms"
+abstract: >-
+  qnmlab computes black-hole quasinormal modes with quantum algorithms: a phase readout that
+  reads a mode's frequency from two measured averages, a seedless search of the complex
+  frequency plane with readout verification, simulated noise and mitigation, and an analysis
+  path for real quantum hardware, including the raw counts of a 2026 IQM Emerald run.
 version: 0.1.1
 license: MIT
 repository-code: "https://github.com/abir-tech/qnmlab"
+url: "https://www.aiqcommunity.org/"
+keywords:
+  - quasinormal modes
+  - black holes
+  - quantum computing
+  - variational quantum eigensolver
+  - non-Hermitian eigenvalue problems
 authors:
   - family-names: Chekroun
     given-names: Abir
     email: a.chekroun@esi-sba.dz
+    affiliation: "AiQC — Ai and Quantum Community"
   - family-names: Al-Yoorby
     given-names: Hamed
+    affiliation: "AiQC — Ai and Quantum Community"
   - family-names: Assal
     given-names: Mouadh Abderrahmane
+    affiliation: "AiQC — Ai and Quantum Community"
   - family-names: Lourghi
     given-names: Zakaria
+    affiliation: "AiQC — Ai and Quantum Community"
   - family-names: Boussahi
     given-names: Achraf
+    affiliation: "AiQC — Ai and Quantum Community"
 preferred-citation:
   type: article
   title: "Phase Readout and Seedless Search for Black-Hole Quasinormal Modes on Quantum Processors"
   authors:
     - family-names: Chekroun
       given-names: Abir
+      affiliation: "AiQC — Ai and Quantum Community"
     - family-names: Al-Yoorby
       given-names: Hamed
+      affiliation: "AiQC — Ai and Quantum Community"
     - family-names: Assal
       given-names: Mouadh Abderrahmane
+      affiliation: "AiQC — Ai and Quantum Community"
     - family-names: Lourghi
       given-names: Zakaria
+      affiliation: "AiQC — Ai and Quantum Community"
     - family-names: Boussahi
       given-names: Achraf
+      affiliation: "AiQC — Ai and Quantum Community"
   year: 2026
